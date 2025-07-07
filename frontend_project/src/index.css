@@ -1,0 +1,9 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Фон всегда белый вне зависимости от темы */
+body {
+  @apply bg-white;
+}
